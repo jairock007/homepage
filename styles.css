@@ -106,9 +106,9 @@ body {
     line-height: 1.2;
 }
 
-.description {
+.container .description {
     color: #666;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
     max-width: 60%;
 }
 
@@ -277,6 +277,10 @@ div main {
     display: flex;
     justify-content: space-between;
     gap: 20px;
+}
+
+.stats-container .stat-item .description {
+   text-align: center;
 }
 
 .stat-item {
