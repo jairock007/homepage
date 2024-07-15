@@ -321,6 +321,7 @@ div main {
 
 
 .overlay {
+    z-index: 2;
     display: none;
     position: fixed;
     top: 0;
